@@ -96,12 +96,17 @@ main aside {
     background-color: rgb(217, 235, 217);
 }
 
-main aside a {
+main aside  a {
     display: block;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
+}
+
+#sitenav {
+    padding-bottom: 50px;
+    
 }
 
 #logolinks {
     padding-top: 100px;
-
 }
+
