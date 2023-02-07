@@ -101,7 +101,7 @@ main aside a {
     padding-bottom: 40px;
 }
 
-a ~ img {
-    padding-top: 150px;
-    padding-left: 8px;
+#logolinks {
+    padding-top: 100px;
+
 }
