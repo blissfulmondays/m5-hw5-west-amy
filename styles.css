@@ -72,6 +72,7 @@ footer {
     text-align: center;
     font-size: larger;
     padding: 30px;
+    background-color:  rgb(217, 235, 217);
 }
 
 p {
@@ -88,9 +89,10 @@ h2 {
 
 main aside {
     float: right;
-    max-width: 350px;
-    padding-top: 100px;
-    padding-bottom: 400px;
+    max-width: 400px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding-left: 30px;
     padding-right: 30px;
     background-color: rgb(217, 235, 217);
@@ -101,12 +103,16 @@ main aside  a {
     padding-bottom: 0px;
 }
 
-#sitenav {
-    padding-bottom: 50px;
-    
-}
-
 #logolinks {
     padding-top: 100px;
+    display: inline;
 }
 
+#tophead {
+   padding-left: 100px;
+}
+
+h3 {
+    font-family: cursive;
+    font-size: 20;
+}

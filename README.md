@@ -2,3 +2,4 @@
 Assignment 5
 
 ![illustration of Amy](images/main%20image.jpg)
+![texture] (images/noise.jpeg)
