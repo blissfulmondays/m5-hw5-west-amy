@@ -34,7 +34,8 @@ h3 {
 
 h2 ~ img {
     float: left;
-    padding-right: 15px;
+    margin-right: 15px;
+    box-shadow: 8px 12px 8px grey;
 }
 
 h1 {
