@@ -10,32 +10,18 @@ body {
 }
 
 header {
-    text-align: center;
-    max-width: auto;
     background-color: rgb(217, 235, 217);
-    padding: 60px 0 0 0;
-    margin:auto;
+    padding: 2% 0 0 14%;
     border-bottom: 4px solid rgb(237, 100, 100);
 }
 
 header nav {
     background-color: rgb(217, 235, 217);
-    margin-right: 30px;
     max-width: 65%;
-    margin-left: 200px;
+    padding-left: 18%;
     text-align: right;
     font-size: 30px; 
     display:inline-block;
-}
-
-.container {
-    background:rgb(255, 255, 246);
-    max-width: 1200px;
-    margin:0 0 0 400px;
-    padding: 50px 40px;
-    line-height: 25px;
-    font-size: 18px;
-    float:left;
 }
 
 h1, 
@@ -54,9 +40,9 @@ h2 ~ img {
 h1 {
     font-size: 50px;
     max-width: 30%;
-    margin:20px 30px 0 0;
+    margin:2% 3% 0 1%;
     display:inline-block;
-    padding: 20px;
+    padding: 22px;
     background-color:rgb(238, 246, 238);
     color:  rgb(84, 109, 84);
     border: 1px solid rgb(237, 100, 100);
@@ -73,17 +59,11 @@ h3 {
     font-family: cursive;
 }
 
-section {
-    padding: 20px 0;
-}
-
-
-
 main p {
     padding: 20 0px;
     text-indent: 25px;
     text-align:justify;
-    margin: 20px;
+    margin:25px 0;
 }
 
 
@@ -98,19 +78,30 @@ main p {
     border: 1px solid rgb(237, 100, 100);
 }
 
-aside {
-    vertical-align: top;
-    max-width: 32%;
-    padding: 40px 30px;
-    background-color: rgb(227, 243, 235);
-    text-align:center;
-    margin-top: 30px;
+.container {
+    background:rgb(255, 255, 246);
+    max-width: 50%;
+    margin:1% 0 4% 15%;
+    padding: 2% 2%;
+    line-height: 25px;
+    font-size: 18px;
+    float:left;
+    display: block;
 }
 
-div aside {
-    float: right;
-    display: block;
-    margin-right: 400px;
+aside {
+    vertical-align: top;
+    padding: 1% 2% 3%;
+    background-color: rgb(227, 243, 235);
+    text-align:center;
+    margin: 1% 10% 0 1%;
+    max-width: 60%;
+    display: inline-block;
+}
+
+aside h2 {
+    font-family: cursive;
+    font-size: 35px;
 }
 
 footer {
@@ -118,4 +109,14 @@ footer {
     margin-top: 1500px;
     padding: 25px;
     text-align: center;
+    border-top: 3px solid rgb(237, 100, 100);
+    clear:both;
+    color: rgb(237, 100, 100);
+}
+
+#icons a {
+    
+    margin: 2%;
+    box-shadow: 8px 12px 8px grey;
+    display:inline-flex;
 }
