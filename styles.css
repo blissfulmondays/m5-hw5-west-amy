@@ -65,8 +65,9 @@ h2 {
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 30px;
     font-variant: small-caps;
+    font-family: cursive;
 }
 
 h4 {
@@ -102,7 +103,7 @@ aside {
     text-align: center;
     padding: 40px 30px;
     background-color: rgb(227, 243, 235);
-    display:inline-block;
+    float: right;
 }
 
 .link {
