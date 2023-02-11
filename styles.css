@@ -34,7 +34,7 @@ h3 {
 
 h2 ~ img {
     float: left;
-    margin-right: 15px;
+    margin: 0 15px 15px 0;
     box-shadow: 8px 12px 8px grey;
 }
 
@@ -58,6 +58,7 @@ h2 {
 h3 {
     font-size: 30px;
     font-family: cursive;
+    line-height: 30px;
 }
 
 main p {
@@ -81,7 +82,7 @@ main p {
 
 .container {
     background:rgb(255, 255, 246);
-    max-width: 50%;
+    max-width: 40%;
     margin:1% 0 4% 15%;
     padding: 2% 2%;
     line-height: 25px;
