@@ -15,7 +15,7 @@ header {
     background-color: rgb(217, 235, 217);
     padding: 40px 0;
     margin:auto;
-    border-bottom: 4px rgb(237, 100, 100);
+    border-bottom: 4px solid rgb(237, 100, 100);
 }
 
 header nav {
@@ -54,9 +54,10 @@ h2 ~ img {
 
 h1 {
     font-size: 50px;
-    margin-left: 50px;
+    margin:20px 30px 0 0;
     display:inline-block;
     padding: 20px;
+    margin-right:350px;
     background-color:rgb(227, 243, 235);
 }
 
@@ -114,6 +115,7 @@ aside {
     padding: 10px 20px;
     background:rgb(227, 243, 235);
     text-decoration: none;
+    border: 1px solid rgb(237, 100, 100);
 }
 
 div {
